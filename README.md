@@ -1,7 +1,6 @@
 # <font color="SlateBlue">Electricity Price Prediction</font>
 This project is part of a university course and focuses on predicting electricity prices using Python and Jupyter Notebooks.
 - [ ] add simple project description
-- [ ] maybe add logo or image
 
 ---
 
