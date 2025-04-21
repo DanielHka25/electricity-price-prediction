@@ -1,0 +1,13 @@
+# <font color="Tomato">TODOs</font>
+- [ ] get new data sets for new features (weather data, load forecast, ...)
+- [ ] include holidays for germany (holidays-package)
+- [ ] add some kind of rolling statistics to XGBoost
+- [ ] EDA (use whole data set for this before splitting into test/train data):
+    - overview over whole data set (where does the data start and end? how often does data change? what are the data types?)
+    - data quality (are there missing values / duplicates?) 
+    - plot electricity price (trends? What are daily/weekly/yearly patterns? where are peaks/lows and why?)
+    - Boxplot for hour/day/weekday/month (typical price throughout the day, ...)
+    - correlation matrix for electricity price with each feature used
+    - scatter plot for price and demand
+    - average Price for each year
+- [ ] train and compare new models (SARIMA, Prophet, LSTM)
