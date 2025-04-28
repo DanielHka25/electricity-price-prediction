@@ -62,19 +62,6 @@ This project is organized into several folders and files to ensure a clean and m
 - **`TODO.md`**: Contains a list of tasks that are yet to be completed.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
 
-electricity-price-prediction/
-│
-├── data/
-│   └── germany_epex_spot.csv
-│
-├── notebooks/
-│   └── price_prediction.ipynb
-│
-├── requirements.txt
-├── README.md
-├── TODO.md
-└── .gitignore
-
 ---
 
 ## <font color="SlateBlue">Documentation</font>
