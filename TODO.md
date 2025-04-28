@@ -1,4 +1,4 @@
-# <font color="Tomato">TODOs</font>
+# <font color="MediumSeaGreen">TODOs</font>
 - [ ] get new data sets for new features (weather data, load forecast, ...)
 - [ ] include holidays for germany (holidays-package)
 - [ ] add some kind of rolling statistics to XGBoost

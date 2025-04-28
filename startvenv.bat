@@ -1,5 +1,7 @@
 @echo off
 
+:: This will be deleted later
+
 call .venv\Scripts\activate.bat
 
 if "%1"=="1" (
