@@ -1,5 +1,5 @@
 # <font color="SlateBlue">Electricity Price Prediction</font>
-This project is part of a university course and focuses on predicting electricity prices using Python and Jupyter Notebooks.
+This project is part of a university course and focuses on predicting electricity prices using Python and Jupyter Notebooks. For now, only the hourly EPEX SPOT day-ahead prices of germany are covered. After a quick data analysis, several machine learning and time series models (SARIMA, Prophet, XGBoost, LSTM) are trained, evaluated and finally compared.
 - [ ] add simple project description
 
 ---
