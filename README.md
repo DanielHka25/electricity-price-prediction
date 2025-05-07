@@ -73,6 +73,7 @@ This project is organized into several folders and files to ensure a clean and m
 ## <font color="SlateBlue">Used Dataset</font>
 
 - [ ] explain used data set
+- The used datasets range from 01.01.2015 (00:00 hours) to 01.01.2025 (00:00 hours).
 
 ---
 
