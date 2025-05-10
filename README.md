@@ -11,7 +11,7 @@ This project is part of a university course and focuses on predicting electricit
 The structure of the Python Jupyter Notebook is as follows:
 
 1. Importing Libraries
-2. Loading and Describing the Data
+2. Loading and Merging the Data
 3. Exploratory Data Analysis (EDA)
 4. Data Preparation
 5. Feature Engineering
