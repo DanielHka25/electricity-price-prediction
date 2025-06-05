@@ -12,3 +12,7 @@ venv/
 # Python
 __pycache__/
 *.pyc
+
+# Temp log
+notebooks/metrics.txt
+
