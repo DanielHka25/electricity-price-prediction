@@ -1,4 +1,3 @@
-- After Training: print out the feature importance
-- use Cross validation with TimeSeriesSplit -> ex: for every year one split
 - make predictions for specific timestamps (for example any random date or any specific geopolitical date)
+- check for spelling mistakes and consistency in writing and code
 - adjust README.md

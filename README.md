@@ -85,5 +85,6 @@ This project is organized into several folders and files to ensure a clean and m
 ---
 
 ## <font color="SlateBlue">Acknowledgements</font>
-
-- [ ] list helpful resources to give credit to
+list helpful resources to give credit to:
+- https://builtin.com/data-science/feature-importance
+- https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/AutoML/scoring-regression.htm
