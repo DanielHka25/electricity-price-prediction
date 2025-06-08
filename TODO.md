@@ -1,3 +1,2 @@
-- make predictions for specific timestamps (for example any random date or any specific geopolitical date)
 - check for spelling mistakes and consistency in writing and code
-- adjust README.md
+- update README.md
