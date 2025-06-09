@@ -1,2 +1,0 @@
-- check for spelling mistakes and consistency in writing and code
-- update README.md
