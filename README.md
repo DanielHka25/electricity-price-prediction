@@ -61,12 +61,12 @@ This will open the Jupyter Notebook in the default browser. Navigate to `/notebo
 ---
 
 ## <font color="SlateBlue">Used Libraries</font>
-- `Pandas` (pandas.pydata.org/) for data manipulation
-- `NumPy` (numpy.org/) for numerical operations
-- `Matplotlib` (matplotlib.org/) and `Seaborn` (seaborn.pydata.org/) for data visualization
-- `XGBoost` (xgboost.readthedocs.io/) for the XGBRegressor model
-- `Scikit-learn` (scikit-learn.org/) for data splitting and model evaluation metrics
-- `Holidays` (pypi.org/project/holidays/) for including German holidays
+- `Pandas` (https://pandas.pydata.org/) for data manipulation
+- `NumPy` (https://numpy.org/) for numerical operations
+- `Matplotlib` (https://matplotlib.org/) and `Seaborn` (https://seaborn.pydata.org/) for data visualization
+- `XGBoost` (https://xgboost.readthedocs.io/) for the XGBRegressor model
+- `Scikit-learn` (https://scikit-learn.org/) for data splitting and model evaluation metrics
+- `Holidays` (https://pypi.org/project/holidays/) for including German holidays
 
 ---
 
@@ -92,6 +92,7 @@ This project is based on publicly available datasets from `Ember` and the `Bunde
 
 
 ## <font color="SlateBlue">Acknowledgements</font>
+Here are some helpful resources that help understanding key concepts discussed in this project:
 - Power Market Information (https://www.epexspot.com/en/basicspowermarket)
 - Residual Load and Net Load (https://www.smard.de/en/204142-204142)
 - Plotting with matplotlib (https://matplotlib.org/stable/users/explain/quick_start.html)
