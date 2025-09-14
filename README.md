@@ -1,10 +1,10 @@
 # <font color="SlateBlue">EPEX Electricity Price Forecasting</font>
 
-This university project focuses on predicting the **German EPEX Spot electricity prices** on an hourly basis using Python and Jupyter Notebooks. The main goal is to build a regression model that can predict these electricity prices based on historical data ranging from January 2015 to the end of December 2024. 
+This university project focuses on predicting the **German EPEX Spot electricity prices** on an **hourly basis** using Python and Jupyter Notebooks. The main goal is to build a regression model that can predict these electricity prices based on historical data ranging from January 2015 to the end of December 2024. 
 
 The notebook follows a **typical machine learning workflow** and common best practices. Each individual step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
 
-We will train a single **`XGBoost` regression model** and evaluate it using key metrics like RMSE, MAE and the R² Score. The notebook concludes with a summary of the project and a discussion of several potential improvements.
+We will train a single **`XGBoost` regression model** and evaluate it using key metrics like RMSE, MAE and the R² score. The notebook concludes with a summary of the project and a discussion of several potential improvements.
 
 ## Table of Contents:
 *(The numbers correspond to the chapters in the Jupyter Notebook)*
@@ -56,7 +56,7 @@ This project contains the main folders and files as follows:
 ```bash
 jupyter notebook
 ```
-This will open the Jupyter Notebook in the default browser. Navigate to `/notebooks/price_prediction.ipynb` to open the Jupyter Notebook. To see the used data sets, check the `/data` folder. 
+This will open the Jupyter Notebook in the default browser. Navigate to `/notebooks/price_prediction.ipynb` to open the Jupyter Notebook. To see the used datasets, check the `/data` folder. 
 
 ---
 
