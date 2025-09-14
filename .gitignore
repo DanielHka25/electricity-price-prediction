@@ -16,3 +16,6 @@ __pycache__/
 # Temp log
 notebooks/metrics.txt
 
+# Convenience bat files
+convertNotebook.bat
+startvenv.bat

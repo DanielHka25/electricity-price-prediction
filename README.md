@@ -1,6 +1,8 @@
-# <font color="SlateBlue">EPEX Electricity Price Forecasting</font>
+# <font color="SlateBlue">Forecasting German EPEX Spot Electricity Prices</font>
 
-This university project focuses on predicting the **German EPEX Spot electricity prices** on an **hourly basis** using Python and Jupyter Notebooks. The main goal is to build a regression model that can predict these electricity prices based on historical data ranging from January 2015 to the end of December 2024. 
+The **EPEX Spot** (European Power Exchange Spot Market) is a short-term electricity market in Europe, where **hourly electricity prices** are determined for each price zone, such as Germany, based on supply and demand. The system mainly operates through the **Day-Ahead Market**, where electricity is traded one day in advance and prices are set for each hour of the following day.
+
+This university project aims to predict the **German EPEX Spot electricity prices** on an **hourly basis** using Python and Jupyter Notebooks. The objective is to develop a regression model capable of forecasting electricity prices for each full hour (e.g., 01:00, 02:00, ...). It is based on a ten-year dataset of historical data recorded at hourly intervals, ranging from January 2015 to the end of December 2024. 
 
 The notebook follows a **typical machine learning workflow** and common best practices. Each individual step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
 
@@ -39,7 +41,7 @@ This project contains the main folders and files as follows:
   cd electricity-price-prediction
   ```
 **Installation of required libraries (using a Python virtual environment)**
-1) create a virtual environment, for example:
+1) Create a virtual environment, for example:
     ```bash
     python -m venv .venv 
     ```
@@ -71,7 +73,7 @@ This will open the Jupyter Notebook in the default browser. Navigate to `/notebo
 ---
 
 ## <font color="SlateBlue">Used Datasets</font>
-This project is based on publicly available datasets from `Ember` and the `Bundesnetzagentur | SMARD.de`. Note that both SMARD datasets were each created by merging two separate CSV files: one covering the period from 2015 to October 2018, and another from October 2018 to 2025. This was necessary due to the introduction of the new DE-LU bidding zone in October 2018. However, **no changes were made to the raw data files** themselves.
+This project is based on publicly available datasets from `Ember` and `Bundesnetzagentur | SMARD.de`. Note that both SMARD datasets were each created by merging two separate CSV files: one covering the period from 2015 to October 2018, and another from October 2018 to 2025. This was necessary due to the introduction of the new DE-LU bidding zone in October 2018, which replaced the previous Germany-Austria (DE-AT) bidding zone. However, **no changes were made to the raw data files** themselves.
 
 `data/germany_epex_spot.csv`
 - Source: https://ember-energy.org/data/european-wholesale-electricity-price-data/
