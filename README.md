@@ -6,7 +6,9 @@ This university project aims to predict the **German EPEX Spot electricity price
 
 The notebook follows a **typical machine learning workflow** and common best practices. Each individual step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
 
-We will train a single **`XGBoost` regression model** and evaluate it using key metrics like RMSE, MAE and the R² score. The notebook concludes with a summary of the project and a discussion of several potential improvements.
+We will focus on training an `XGBRegressor` model of the `XGBoost` framework and evaluate it using key metrics like RMSE, MAE and the R² score. This model was initially chosen because it offers a good balance between performance and complexity, and is rather easier to implement and optimize than intensive Deep Learning models. For comparison, a `RandomForestRegressor` from the `scikit-learn` library will also be trained and compared against the `XGBRegressor`.
+
+Finally, notebook concludes with a summary of the project and a discussion of several potential improvements.
 
 ## Table of Contents:
 *(The numbers correspond to the chapters in the Jupyter Notebook)*
@@ -65,7 +67,7 @@ This will open the Jupyter Notebook in the default browser. Navigate to `/notebo
 ## <font color="SlateBlue">Used Libraries</font>
 - `Pandas` (https://pandas.pydata.org/) for data manipulation
 - `NumPy` (https://numpy.org/) for numerical operations
-- `Matplotlib` (https://matplotlib.org/) and `Seaborn` (https://seaborn.pydata.org/) for data visualization
+- `Matplotlib` (https://matplotlib.org/), `Seaborn` (https://seaborn.pydata.org/) and `Plotly` (https://plotly.com/python/) for data visualization
 - `XGBoost` (https://xgboost.readthedocs.io/) for the XGBRegressor model
 - `Scikit-learn` (https://scikit-learn.org/) for data splitting and model evaluation metrics
 - `Holidays` (https://pypi.org/project/holidays/) for including German holidays
@@ -101,4 +103,6 @@ Here are some helpful resources that help understanding key concepts discussed i
 - Negative Electricity Prices in Germany (https://www.smard.de/page/en/wiki-article/5884/105426)
 - XGBRegressor (https://xgboost.readthedocs.io/en/latest/python/python_api.html)
 - Error Metrics (https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/AutoML/scoring-regression.htm)
+- Comparison of Random Forest and XGBoost (https://www.geeksforgeeks.org/machine-learning/difference-between-random-forest-vs-xgboost/)
+- Create line charts with Plotly (https://plotly.com/python/line-charts/)
 - Feature Importance (https://builtin.com/data-science/feature-importance)
