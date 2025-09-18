@@ -6,7 +6,7 @@ This university project aims to predict the **German EPEX Spot electricity price
 
 The notebook follows a **typical machine learning workflow** and common best practices. Each individual step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
 
-We will focus on training an `XGBRegressor` model of the `XGBoost` framework and evaluate it using key metrics like RMSE, MAE and the R² score. This model was initially chosen because it offers a good balance between performance and complexity, and is rather easier to implement and optimize than intensive Deep Learning models. For comparison, a `RandomForestRegressor` from the `scikit-learn` library will also be trained and compared against the `XGBRegressor`.
+We will focus on training an `XGBRegressor` model of the `XGBoost` framework and evaluate it using key metrics including the RMSE, MAE and R² score. This model was initially chosen because it offers a good balance between performance and complexity, and is rather easier to implement and optimize than intensive Deep Learning models. For comparison, a `RandomForestRegressor` from the `scikit-learn` library will additionally be trained and compared against the `XGBRegressor`.
 
 Finally, notebook concludes with a summary of the project and a discussion of several potential improvements.
 
@@ -60,7 +60,7 @@ This project contains the main folders and files as follows:
 ```bash
 jupyter notebook
 ```
-This will open the Jupyter Notebook in the default browser. Navigate to `/notebooks/price_prediction.ipynb` to open the Jupyter Notebook. To see the used datasets, check the `/data` folder. 
+This will launch the Jupyter Notebook in the default browser. Open `/notebooks/price_prediction.ipynb` to access the notebook. The datasets used in this project can be found in the `/data` folder. 
 
 ---
 
