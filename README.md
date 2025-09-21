@@ -4,11 +4,11 @@ The **EPEX Spot** (European Power Exchange Spot Market) is a short-term electric
 
 This university project aims to predict the **German EPEX Spot electricity prices** on an **hourly basis** using Python and Jupyter Notebooks. The objective is to develop a regression model capable of forecasting electricity prices for each full hour (e.g., 01:00, 02:00, ...). It is based on a ten-year dataset of historical data recorded at hourly intervals, ranging from January 2015 to the end of December 2024. 
 
-The notebook follows a **typical machine learning workflow** and common best practices. Each individual step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
+The notebook follows a **typical machine learning workflow** and common best practices. Each step is thoroughly documented by markdown cells and comments in code. Relevant technical terms are explained where necessary to ensure a clear understanding of each process. A dedicated **Exploratory Data Analysis** (EDA) provides deeper insights into the German electricity market in order to gain a sufficient amount of domain knowledge for later feature selection.
 
-We will focus on training an `XGBRegressor` model of the `XGBoost` framework and evaluate it using key metrics including the RMSE, MAE and R² score. This model was initially chosen because it offers a good balance between performance and complexity, and is rather easier to implement and optimize than intensive Deep Learning models. For comparison, a `RandomForestRegressor` from the `scikit-learn` library will additionally be trained and compared against the `XGBRegressor`.
+We will focus on training an `XGBRegressor` model of the `XGBoost` framework and evaluate it using key metrics including the RMSE, MAE and R² score. This model was initially chosen because it offers a reasonable balance between performance and complexity, and is rather easier to implement and optimize than complex deep learning models. For comparison, a `RandomForestRegressor` from the `scikit-learn` library will additionally be trained and compared against the `XGBRegressor`.
 
-Finally, notebook concludes with a summary of the project and a discussion of several potential improvements.
+Finally, the notebook concludes with a summary of the project and a discussion of several potential improvements.
 
 ## Table of Contents:
 *(The numbers correspond to the chapters in the Jupyter Notebook)*
@@ -96,13 +96,13 @@ This project is based on publicly available datasets from `Ember` and `Bundesnet
 
 
 ## <font color="SlateBlue">Acknowledgements</font>
-Here are some helpful resources that help understanding key concepts discussed in this project:
-- Power Market Information (https://www.epexspot.com/en/basicspowermarket)
-- Residual Load and Net Load (https://www.smard.de/en/204142-204142)
-- Plotting with matplotlib (https://matplotlib.org/stable/users/explain/quick_start.html)
-- Negative Electricity Prices in Germany (https://www.smard.de/page/en/wiki-article/5884/105426)
-- XGBRegressor (https://xgboost.readthedocs.io/en/latest/python/python_api.html)
-- Error Metrics (https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/AutoML/scoring-regression.htm)
-- Comparison of Random Forest and XGBoost (https://www.geeksforgeeks.org/machine-learning/difference-between-random-forest-vs-xgboost/)
-- Create line charts with Plotly (https://plotly.com/python/line-charts/)
-- Feature Importance (https://builtin.com/data-science/feature-importance)
+The following resources provide additional information on key concepts discussed in this project:
+- **Power Market Information:** Provides general information about the EPEX Spot Market. (https://www.epexspot.com/en/basicspowermarket)
+- **Residual Load and Net Load:** Explains the concepts of residual and net electricity load in Germany. (https://www.smard.de/en/204142-204142)
+- **Plotting with Matplotlib:** A quick-start guide for creating plots with Matplotlib. (https://matplotlib.org/stable/users/explain/quick_start.html)
+- **Negative Electricity Prices in Germany:** Explains the meaning of negative electricity prices in Germany. (https://www.smard.de/page/en/wiki-article/5884/105426)
+- **XGBRegressor Documentation:** Python API reference of XGBoost. (https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBRegressor)
+- **Error Metrics:** Simple explanation of common error metrics. (https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/AutoML/scoring-regression.htm)
+- **Comparison of Random Forest and XGBoost:** Discussion of the differences between Random Forest and XGBoost models. (https://www.geeksforgeeks.org/machine-learning/difference-between-random-forest-vs-xgboost/)
+- **Creating Line Charts with Plotly:** Guide for creating line charts in Plotly. (https://plotly.com/python/line-charts/)
+- **Feature Importance:** Explanation of feature importance in machine learning. (https://builtin.com/data-science/feature-importance)
